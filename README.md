@@ -30,6 +30,7 @@ The project is built on a modern, high-performance web stack:
 * **Routing:** React Router (Dashboard, FanSE, Swag Store, Checkout, Profile, Settings, Rentals, Fan Wars).
 * **Backend:** Node.js + Express.js. Acts as a secure proxy to the Gemini AI API and handles live match simulations/scraping.
 * **AI Engine:** Google Gemini (1.5 Flash) integration via the `@google/generative-ai` SDK.
+* **Getting live data :** using https://www.cricbuzz.com/cricket-match/live-scores
 
 ## Website link
 
@@ -38,6 +39,10 @@ vercel : https://google-ipl-mu.vercel.app/
 ## 🌐 Deployment (Vercel)
 
 Deployed the `server` directory to Render (for `GEMINI_API_KEY` ).
+
+## note
+
+There is a scraping timeout in cricbuzz the website may take time to load live scores
 
 
 
