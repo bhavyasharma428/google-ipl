@@ -1,3 +1,8 @@
+### About project
+
+This project is build on Google cloud event : BUILD WITH AI: Agentic Premier League (jaipur) on 17th May 2026 
+It is a multi-city, high-energy developer challenge happening across India, often described as an in-person "vibe coding" event. Instead of a traditional, quiet hackathon, it combines the energy of a live sports watch party with fast-paced software development.
+
 # FanVerse: AI-Powered Second-Screen Sports Companion
 
 FanVerse is a revolutionary "second-screen" live sports engagement platform designed to transform passive cricket viewership into an active, monetizable, and hyper-personalized experience. Instead of just watching a match, fans can predict ball-by-ball outcomes, trade player stocks, collect digital swag, and interact with an AI-driven commentator tailored to their specific personality.
@@ -22,42 +27,13 @@ The project is built on a modern, high-performance web stack:
 * **Backend:** Node.js + Express.js. Acts as a secure proxy to the Gemini AI API and handles live match simulations/scraping.
 * **AI Engine:** Google Gemini (1.5 Flash) integration via the `@google/generative-ai` SDK.
 
-## 🚀 Running Locally
+## Website link
 
-1. **Clone the repository:**
-   \`\`\`bash
-   git clone https://github.com/bhavyasharma428/google-ipl.git
-   cd google-ipl
-   \`\`\`
-
-2. **Setup the Backend:**
-   \`\`\`bash
-   cd server
-   npm install
-   \`\`\`
-   Create a \`.env\` file in the \`server\` directory and add your Google Gemini API Key:
-   \`\`\`env
-   GEMINI_API_KEY=your_api_key_here
-   \`\`\`
-   Start the backend:
-   \`\`\`bash
-   npm start
-   # or node index.js
-   \`\`\`
-
-3. **Setup the Frontend:**
-   Open a new terminal and navigate to the project root:
-   \`\`\`bash
-   npm install
-   npm run dev
-   \`\`\`
-   Access the app at \`http://localhost:5173/\`.
+vercel : https://google-ipl-mu.vercel.app/
 
 ## 🌐 Deployment (Vercel)
-To deploy this project:
-1. Deploy the `server` directory to Render or Heroku (ensuring you add the `GEMINI_API_KEY` to the environment variables).
-2. Update the frontend fetch calls (in `src/store.js`, `src/App.jsx`, `src/pages/*.jsx`) from `http://localhost:3001` to your deployed backend URL.
-3. Deploy the root frontend directory to Vercel.
 
----
-*Built as a business prototype for next-generation sports engagement.*
+Deployed the `server` directory to Render (for `GEMINI_API_KEY` ).
+
+
+
