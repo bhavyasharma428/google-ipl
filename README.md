@@ -1,9 +1,13 @@
-### About project
+# About Event
 
 This project is build on Google cloud event : BUILD WITH AI: Agentic Premier League (jaipur) on 17th May 2026 
 It is a multi-city, high-energy developer challenge happening across India, often described as an in-person "vibe coding" event. Instead of a traditional, quiet hackathon, it combines the energy of a live sports watch party with fast-paced software development.
 
-# FanVerse: AI-Powered Second-Screen Sports Companion
+# Challenge 
+
+Design a system that enhances how users experience live sporting events beyond passive viewing. The solution should create meaningful second-screen interactions during matches, enabling fans to engage with key moments, participate in real-time activities, and feel more connected to the game as it unfolds.
+
+# Solution : FanVerse
 
 FanVerse is a revolutionary "second-screen" live sports engagement platform designed to transform passive cricket viewership into an active, monetizable, and hyper-personalized experience. Instead of just watching a match, fans can predict ball-by-ball outcomes, trade player stocks, collect digital swag, and interact with an AI-driven commentator tailored to their specific personality.
 
